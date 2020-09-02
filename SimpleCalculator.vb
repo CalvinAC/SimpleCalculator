@@ -4,7 +4,7 @@
 'Simple Calculator
 
 
-Module Module1
+Module SimpleCalculator
 
     Sub Main()
 

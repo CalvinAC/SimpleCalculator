@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{04EFCB8A-6B50-4DB7-8695-B7ECB491DD3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SimpleCalculator.Module1</StartupObject>
+    <StartupObject>SimpleCalculator.SimpleCalculator</StartupObject>
     <RootNamespace>SimpleCalculator</RootNamespace>
     <AssemblyName>SimpleCalculator</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="SimpleCalculator.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
